@@ -87,7 +87,7 @@ public void readJsonFromURL(URL url)
 		 System.out.println("pets of Male Owners:"+pet_array_Male.size()+"\n");
 		 doSortCatsByName(pet_array_Male);
 		 System.out.println("-------------------------------------------------------------");
-		 System.out.println("pets of Male Owners:"+pet_array_Female.size()+"\n");
+		 System.out.println("pets of Female Owners:"+pet_array_Female.size()+"\n");
 		 doSortCatsByName(pet_array_Female);
 	}
 	catch (Exception e) {
